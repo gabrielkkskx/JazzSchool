@@ -8,10 +8,42 @@
 :root{
     --color-primary: #97DD50;
     --color-secondary: #A93CFF;
+    --color-terciary: #006EEF;
+    --color-quaternary: #62E8F0;
     --color-black: #000;
     --color-white: #fff;
 }
 
 body{
-    background: linear-gradient(90deg, #FFE7D1);
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
+    padding: 0 1rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary{
+    color: var(--color-terciary)
+}
+
+.text-center{
+    text-align: center;
 }
