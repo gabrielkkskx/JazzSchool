@@ -4,3 +4,14 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --color-primary: #97DD50;
+    --color-secondary: #A93CFF;
+    --color-black: #000;
+    --color-white: #fff;
+}
+
+body{
+    background: linear-gradient(90deg, #FFE7D1);
+}
