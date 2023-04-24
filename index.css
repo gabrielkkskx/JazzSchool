@@ -133,6 +133,8 @@ h2{
 .card{
     background-color: var(--color-primary);
     border: 2px solid var(--color-black);
+    box-shadow: 4px 4px 0 var(--color-black);
+    
 }
 
 .mt-1{
