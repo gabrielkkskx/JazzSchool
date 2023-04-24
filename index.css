@@ -112,6 +112,7 @@ h2{
     content: '';
     background: url(img/three-dashes.svg);
     position: absolute;
+    top: 0.75rem;
     height: 36px;
     width: 40px;
 }
