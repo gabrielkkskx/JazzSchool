@@ -89,6 +89,33 @@ h2{
     padding-right: 1.25rem;
 }
 
+.hero-section .button{
+    position: relative;
+}
+
+.hero-section .button ::after{
+    content: '';
+    background: url(img/arrow-curve.svg);
+    position: absolute;
+    top: 5rem;
+    right: -4rem;
+    height: 48px;
+    width: 132px;
+}
+
+.decoration{
+    display: block;
+    position: relative;
+}
+
+.decoration ::after{
+    content: '';
+    background: url(img/three-dashes.svg);
+    position: absolute;
+    height: 36px;
+    width: 40px;
+}
+
 .mt-1{
     margin-top: 1rem;
 }
