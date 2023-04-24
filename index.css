@@ -55,7 +55,7 @@ header nav a:nth-child(2n-1){
     border: var(--color-black);
     box-shadow: 4px 4px 0 var(--color-black);
     color: var(--color-black);
-    display: black;
+    display: block;
     font-size: 1.25rem;
     padding: 75rem 1rem;
     max-width: 14rem;
