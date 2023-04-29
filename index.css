@@ -155,7 +155,22 @@ h2{
     width: fit-content;
 }
 
+/* Rodapé */
 
+footer{
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a{
+    display: block;
+    padding-left: 0;
+}
+
+
+
+
+/*utilitários*/
 
 .mt-1{
     margin-top: 1rem;
