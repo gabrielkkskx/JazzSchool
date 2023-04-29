@@ -214,7 +214,7 @@ footer nav a{
 
 /*Responsividade*/
 
- @media screen and (min-width 40rem){
+ @media screen and (min-width:40rem){
     header nav{
         display: block;
         text-align: center;
@@ -230,3 +230,5 @@ footer nav a{
         margin-top: 1rem;
     }
 }
+
+@media screen and (min-width:48rem)
