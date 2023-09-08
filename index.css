@@ -116,6 +116,71 @@ h2{
     width: 40px;
 }
 
+.cursos{
+    padding-bottom: 8rem;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.25rem;
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+}
+
+.carta{
+    background-color: var(--primario);
+    border: 2px solid var(--preto);
+    box-shadow: 4px 4px 0 var(--preto);
+    max-width: 17rem;
+    padding: 2rem 0 0 2rem;
+}
+
+.carta:nth-child(2n){
+    align-self: end;
+    background-color: var(--secundario);
+}
+
+.carta strong{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.carta a{
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+/*Rodapé*/
+
+footer{
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a{
+    display: block;
+    padding-left: 0;
+}
+
+.newsletter-form label{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.newsletter-form input{
+    border: 2px solid var(--preto);
+    box-shadow: 4px 4px 0 var(--preto);
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+/*utilitários*/
+
 .mt-1{
     margin-top: 1rem;
 }
