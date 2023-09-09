@@ -219,13 +219,13 @@ footer nav a{
         text-align: center;
     }
 
-    .carta{
+    .cartas{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .carta:nth-child(2n){
+    .carta:nth-child(2n) {
         margin-top: 1rem;
     }
 }
