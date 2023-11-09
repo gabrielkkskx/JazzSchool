@@ -3,6 +3,7 @@
     --secundario: #ff9a3c;
     --preto: #000;
     --branco: #FFF;
+    --laranja: #EB9B00;
 }
 
 * {
@@ -178,6 +179,18 @@ footer nav a{
     font-size: 1.5rem;
     padding: .5rem;
     width: 100%;
+}
+
+#copy{
+  background-color: #263138;
+  text-align: center;
+  padding: 24px;
+  color: #FFF;
+}
+
+.nick {
+  color: var(--laranja);
+  text-decoration: none;
 }
 
 /*utilitários*/
