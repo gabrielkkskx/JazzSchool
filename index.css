@@ -186,6 +186,7 @@ footer nav a{
   text-align: center;
   padding: 24px;
   color: #FFF;
+  box-sizing: none;
 }
 
 .nick {
